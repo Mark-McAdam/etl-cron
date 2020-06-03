@@ -2,7 +2,9 @@
 | Name | Identifier | AWS SDK for Python | Operating system |
 | Python 3.7 | python3.7 | boto3-1.12.49 & botocore-1.15.49 | Amazon Linux |
 
+# TODO
 
+Might need to rebuild this repo from inside of an Amazon Linux AMI in order to develop on the same environment as we are deploying to. I don't think docker is an option for 
 
 
 

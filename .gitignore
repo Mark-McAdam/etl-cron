@@ -1,3 +1,6 @@
+# remove package directory used for uploading libraries
+/package
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
