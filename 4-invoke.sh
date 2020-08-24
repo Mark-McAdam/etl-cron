@@ -1,4 +1,5 @@
 #!/bin/bash
+# invoke the lambda function
 set -eo pipefail
 FUNCTION=$(aws cloudformation describe-stack-resource --stack-name kondoboard-etl-cron --logical-resource-id function --query 'StackResourceDetail.PhysicalResourceId' --output text)
 
