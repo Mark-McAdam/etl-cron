@@ -1,4 +1,6 @@
 #!/bin/bash
+# clean up unused resources
+
 set -eo pipefail
 STACK=kondoboard-etl-cron
 if [[ $# -eq 1 ]] ; then
