@@ -1,6 +1,6 @@
 #!/bin/bash
 # clean up unused resources
-# break down to avoid billing 
+# break down to avoid billing and extra costs
 
 set -eo pipefail
 STACK=kondoboard-etl-cron
